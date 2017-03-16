@@ -43,10 +43,9 @@ Finished in 0.4 seconds
 
 Este proyecto exige que tu código cumpla con ciertos estándares de calidad.
 El conjunto de restricciones responde a la [especificación recomendada por
-ESLint](http://eslint.org/docs/rules/) con dos alteraciones:
-- Se debe usar el estilo _camelCase_ para identificadores.
+ESLint](http://eslint.org/docs/rules/) con tres alteraciones:
+
 - Se deben usar comillas simples para las cadenas.
-- Se deben poner espacios entre operandos y operadores.
 - No se permiten líneas de más de 100 caracteres.
 - No se permiten funciones de más de 40 _statements_
 
@@ -156,7 +155,7 @@ La **defensa** establece la probabilidad (de 0 a 100) de que un
 
 Los **puntos de maná** sirven para pagar los costes mágicos de los hechizos y
 los **puntos de vida** indican cuánto daño es capaz de resistir el personaje
-antes de ser morir (puntos de vida a 0). Ambas características están ligadas a
+antes de morir (puntos de vida a 0). Ambas características están ligadas a
 unos valores máximos **puntos de maná máximos** y **puntos de vida máximos**
 respectivamente que no pueden sobrepasar.
 

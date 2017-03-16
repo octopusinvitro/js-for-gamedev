@@ -4,12 +4,19 @@ La guía de la práctica te sugiere un orden para completar con éxito la
 implementación de la funcionalidad de la práctica. Prepárate, eso sí, para
 **leer mucho JavaScript** y ten a mano Google, la MDN y StackOverflow.
 
+
 ## 1. El modelo de datos
 
 En el juego existen muchos tipos de entidades, algunos relacionados y otros no.
 
 La especificación de tales entidades puede encontrarse en `spec/entities.js` y
 la implementación en `src/entities.js`, `src/Character.js` y `src/items.js`.
+
+Recuerda que para correr los tests se usa el comando:
+
+```js
+npm test
+```
 
 ### Efectos
 
